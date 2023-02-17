@@ -24,46 +24,46 @@ var challenges = [
     {
         question: "Which one of the following tags is used for inserting the largest heading in HTML?",
         a: "1. <H3>",
-        b: "2. <H1)",
+        b: "2. <H1>",
         c: "3. <H5>",
         d: "4. <H6>",
-        correct: "3. <H1>"
+        correct: "2. <H1>"
     },
 
     {
-        question: "The condition in an if / else statement is enclosed with ______.",
-        a: "1. quotes",
-        b: "2. curly brackets",
-        c: "3. parenthesis",
-        d: "4. square brackets",
-        correct: "2. curly brackets"
+        question: "Which of the following tags are used to insert a line break in HTML",
+        a: "1. <br>",
+        b: "2. <a>",
+        c: "3. <pre>",
+        d: "4. <b>",
+        correct: "1. <br>"
     },
 
     {
-        question: "String values must be enclosed within _____ when being assigned to variables.",
-        a: "1. commas",
-        b: "2. curly brackets",
-        c: "3. quotes",
-        d: "4. parenthesis",
-        correct: "3. quotes"
+        question: "Which character is used to represent the closing of a tag in HTML?",
+        a: "1. $",
+        b: "2. !",
+        c: "3. *",
+        d: "4. /",
+        correct: "4. /"
     },
 
     {
-        question: "A very useful tool used during development and debugging for printing content to the debugger is:",
-        a: "1. JavaScript",
-        b: "2. terminal/bash",
-        c: "3. for loops",
-        d: "4. console.log",
-        correct: "4. console.log"
+        question: "How to create an unordered list in HTML?",
+        a: "1. <ul>",
+        b: "2. <ol>",
+        c: "3. <li>",
+        d: "4. <i>",
+        correct: "1. <ul>"
     },
 
     {
-        question: "Arrays in JavaScript can be used to store _____.",
-        a: "1. numbers and strings",
-        b: "2. other arrays",
-        c: "3. booleans",
-        d: "4. all the above",
-        correct: "4. all the above"
+        question: "How to create an ordered list in HTML",
+        a: "1. ul",
+        b: "2. <ol>",
+        c: "3. <li>",
+        d: "4. <i>",
+        correct: "2. <ol>"
     }
 ];
 

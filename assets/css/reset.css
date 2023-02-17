@@ -20,7 +20,7 @@
     font-size: 100%;
   }
   
-  /* Matches the font of special elements to the rest of the page */
+  /* Match the font of special elements to the rest of the page */
   input, select, option, optgroup, textarea, button,
   pre, code {
     font-size: 100%;
