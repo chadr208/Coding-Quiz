@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    <header>
+        <a href="./assets/html/scores.html">View Highscores</a>
+        <p id="time-box" class="time-hide">Time: <span id = 'time'>75</span></p>
+    </header>
+
+    <main>
+
+        <section class="box">
+            <h2 class="question" id="intro-question">Coding Quiz Challenge</h2>
+        </section>
+
+        <section>
+            <p class="instructions instructions-show">
+               Select the correct answer to the following questions. Incorrect results will result in time deduction.
+            </p>
+
+            <form class="submit-form" id="hide-form">
+                <label for="fname">Enter Initials</label>
+                <input type="text" id="initials-input" value="">
+                <input type="submit" value="Submit" id="submit">
+            </form>
+
+            <ol id = "scoreboard">
+
+            </ol>
+
+            <div class="scoreboard-buttons-hide" id="scoreboard-buttons">
+                <button id="back-button">Go Back</button>
+                <button id="clear-scoreboard-button">Clear Scoreboard</button>
+            </div>
+            
+
+            <ol class='choices' id="choices-show">
+
+            </ol>
+
+            <h3 id='correct' class="feedback-hide">Correct!</h3>
+            <h3 id='wrong' class="feedback-hide">Wrong!</h3>
+
+            <div class="start-box start-box-show">
+                <button id="start-button">Start Quiz</button>
+            </div>
+        </section>
+        
+
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
