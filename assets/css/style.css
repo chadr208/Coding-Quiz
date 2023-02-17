@@ -1,0 +1,154 @@
+:root{
+    --background: rgb(102, 255, 0);
+}
+
+
+header{
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+header a{
+    display: inline-block;
+    color: var(--background);
+    text-decoration: none;
+
+}
+
+header p{
+    float: right;
+}
+.time-hide{
+    display: none;
+}
+.time-show{
+    display: block;
+}
+
+.box{
+    padding-top: 50px;
+}
+
+h2{
+    font-size: 1.7rem;
+}
+
+#intro-question{
+    text-align: center;
+
+}
+#quiz-question{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 15px;
+}
+
+.instructions-show{
+    display: block;
+    padding-top: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+}
+
+.instructions-hide{
+    display: none;
+}
+/* this is for instructions to adjust to the end screen */
+.end-screen{
+    text-align: left;
+    padding-left: 30%;
+    padding-bottom: 20px;
+}
+
+.submit-form{
+    padding-left: 30%;
+}
+
+#show-form{
+    display: block;
+}
+
+#hide-form{
+    display: none;
+}
+
+#scoreboard{
+    margin-left: 30%;
+    margin-right: 40%;
+}
+
+.scoreboard-li{
+    margin: 3px;
+    padding: 5px;
+    background-color: rgb(41, 209, 232);
+    color: rgb(0, 0, 0);;
+}
+
+.scoreboard-buttons-hide{
+    display: none;
+}
+
+.scoreboard-buttons-show{
+    display: inline-block;
+    margin-left:30%;
+    margin-top: 10px;
+}
+
+#back-button{
+    margin-left: 3px;
+    padding: 5px;
+    background-color: var(--background);
+}
+
+#clear-scoreboard-button{
+    margin-left: 18px;
+    padding: 5px;
+    background-color: var(--background);
+}
+
+button{
+    background-color: var(--background);
+    color: rgb(255, 0, 0);
+    padding: 3px 6px;
+}
+
+.start-box-show{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.start-box-hide{
+    display: none;
+}
+
+#choices-show{
+    display: block;
+}
+
+#choices-hide{
+    display: none;
+}
+
+/* gets added by javascript to the li elements*/
+.choices-list{
+    padding-left: 30%;
+    margin-top: 5px;
+}
+
+.feedback-hide{
+    display: none;
+}
+
+.feedback-show{
+    margin-top: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 1.2rem;
+    font-style: oblique;
+
+}
+
+
